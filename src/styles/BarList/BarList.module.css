@@ -1,0 +1,151 @@
+.container {
+    background-color: #131313;
+    overflow: hidden;
+    min-width: 325px;
+    min-height: 340px;
+  }
+
+  .search-container{
+    padding: 20px;
+    position: sticky;
+    top: 0; 
+    height: 150px;
+    background-color: #131313;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 5px 10px 15px rgba(182, 3, 158, 0.1);
+  }
+
+  .title{
+    margin-top: 10px;
+    margin-bottom: 5%;
+    font-size: 17px; 
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    background-color: #272727;
+    padding:15px;
+    border-radius: 10px;
+    color: #636363 ; 
+    outline: none; 
+    border: none;
+  }
+
+  .input.active{
+    color: white;
+  }
+
+  .store-list {
+    height: 590px;
+    overflow-y: auto;
+    margin-top: 0vw; 
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .store {
+    display: flex; 
+    align-items: center; 
+    overflow: hidden; 
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .storeImage{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 25px;
+    margin-right: 20px;
+  }
+
+  .storeDetails{
+    flex-grow: 1; 
+    overflow: hidden; 
+  }
+
+
+  .storeName{
+    font-size: 20px; 
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .storeRepresentative{
+    font-size: 15px; 
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 5px;
+    color:#ABABAB;
+  }
+
+
+  .descriptions{
+    display: flex;
+    align-items: center;
+    color: #7E7E7E;
+    font-size: 12px; 
+    line-height: 2;
+    margin: 0;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .representMenu{
+    background-color: #473273; 
+    color: #BDBDBD; 
+    font-size: 12px; 
+    border-radius: 5px; 
+    padding:0px 8px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .storeLine{
+    height: 0.1vw; 
+    background-color: rgba(128, 128, 128, 0.5); 
+  
+  }
+
+  .noResult{
+    display: flex;
+    padding: 2vw;
+    height: 40vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .noResult-image{
+    margin-top: 10vw;
+    width: 20vw;
+    height: auto;
+  }
+
+  .noResult-main{
+    font-size: 2.2vw; 
+    font-weight: 600;
+    line-height: 2;
+    margin-top: 3vw;
+    color: #696969;
+  }
+
+  .noResult-serve{
+    font-size: 2vw; 
+    font-weight: 600;
+    line-height: 2;
+    margin-top: 0.5vw;
+    color: #696969;
+  }
+  
+  .container::-webkit-scrollbar {
+    display: none; 
+}
+
+.store-list::-webkit-scrollbar {
+  display: none; 
+}
